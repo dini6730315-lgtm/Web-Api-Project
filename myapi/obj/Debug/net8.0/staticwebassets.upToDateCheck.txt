@@ -1,0 +1,3 @@
+wwwroot\Home.html
+wwwroot\update.html
+wwwroot\home.js

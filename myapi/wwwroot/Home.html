@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="home.js" defer></script>
+    <style>
+        body {
+            display:flex;
+
+        }
+          .register,.logIn
+              {
+              display:flex;
+              flex-direction:column;
+              width:20vw;
+              gap:2px;
+              align-items:center;
+          }
+          .button
+              {
+              color:aliceblue;
+              width:120px;
+          background-color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="logIn">
+        <input class="userName" type="text"  placeholder="mail" />
+        <input class="password" type="password" placeholder="password" />
+        <button class="button" onclick="loginUser()">Log in</button>
+    </div>
+    <div class="register">
+        <input class="userName" type="text" placeholder="mail" />
+        <input class="password" type="password" placeholder="password" />
+        <input class="firstName" type="text" placeholder="first name" />
+        <input class="lastName" type="text" placeholder="last name" />
+        <button class="button" onclick="getRespone()">register</button>
+
+    </div>
+    <a href="update.html">update my details</a>
+</body>
+</html>
+
