@@ -10,7 +10,9 @@ namespace APIproj.Controllers
 
     public class UsersController : ControllerBase
     {
-        static string filePath = "file.txt";
+        //fix: The path never changes, so it can be readonly.
+        //A name that says what is inside, like Users.txt, is clearer than file.txt
+        static readonly string filePath = "file.txt";
         // GET: api/<UsersController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -29,7 +31,8 @@ namespace APIproj.Controllers
             string userJson = JsonSerializer.Serialize(user);
             System.IO.File.AppendAllText(filePath, userJson +
             Environment.NewLine);
-            return CreatedAtAction(nameof(Get), new { id = user.id },
+            //fix: The new user is read back with GetById, so CreatedAtAction points to it
+            return CreatedAtAction(nameof(GetById), new { id = user.id },
             user);
         }
         [HttpPost("login")]
@@ -51,7 +54,9 @@ namespace APIproj.Controllers
 
         }
         [HttpGet("{id}")]
-        public ActionResult<User> GetById([FromBody] int id)
+        //fix: The id comes from the route ({id}), not from the body. With [FromBody], a GET request
+        //(which has no body) was rejected with 415 Unsupported Media Type
+        public ActionResult<User> GetById(int id)
         {
             using (StreamReader reader = System.IO.File.OpenText(filePath))
             {
@@ -61,7 +66,8 @@ namespace APIproj.Controllers
                     User newUser =
                     JsonSerializer.Deserialize<User>(currentUserInFile);
                     if (newUser.id == id)
-                        return CreatedAtAction(nameof(GetById), new { id = newUser.id }, newUser);
+                        //fix: GET only reads, so it returns 200 Ok and not 201 Created
+                        return Ok(newUser);
                 }
             }
             return NotFound();
@@ -69,6 +75,9 @@ namespace APIproj.Controllers
         }
         // PUT api/<UsersController>/5
 
+        //PUT usually gets the id in the route (api/Users/{id}): add {id} to [HttpPut], take int id as a parameter,
+        //look for the user with this id, and set user.id = id before saving.
+        //The assignment asks PUT to return Ok(): change void to IActionResult and return Ok() at the end
         [HttpPut]
             public void Put([FromBody] User user)
             {
@@ -82,7 +91,11 @@ namespace APIproj.Controllers
                     User newuser =
                     JsonSerializer.Deserialize<User>(currentUserInFile);
                     if (newuser.id == user.id)
+                    {
                         textToReplace = currentUserInFile;
+                        //fix: Found- break
+                        break;
+                    }
                 }
             }
 
