@@ -27,8 +27,8 @@
 </head>
 <body>
     <div class="logIn">
-        <input class="userName" type="text"  placeholder="mail" />
-        <input class="password" type="password" placeholder="password" />
+        <input class="userNameLogin" type="text" placeholder="mail" />
+        <input class="passwordLogin" type="password" placeholder="password" />
         <button class="button" onclick="loginUser()">Log in</button>
     </div>
     <div class="register">
@@ -37,7 +37,8 @@
         <input class="firstName" type="text" placeholder="first name" />
         <input class="lastName" type="text" placeholder="last name" />
         <button class="button" onclick="getRespone()">register</button>
-
+        <button class="check" onclick="check()"> Check password strong</button>
+        <progress id="file" value="2" max="5"></progress>
     </div>
     <a href="update.html">update my details</a>
 </body>

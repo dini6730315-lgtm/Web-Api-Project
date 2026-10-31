@@ -27,8 +27,8 @@ async function getRespone() {
 const loginUser = async () => {
   
     const userlogin = {
-        userName: document.querySelector(".userName").value,
-        password: document.querySelector(".password").value
+        userName: document.querySelector(".userNameLogin").value,
+        password: document.querySelector(".passwordLogin").value
     }
          const responsePostLogin = await fetch('api/users/login', {
              method: 'POST',
@@ -38,10 +38,7 @@ const loginUser = async () => {
              body: JSON.stringify(userlogin)
          });
        
-        //console.log('POSTLOGIN data', dataPost1);
-   
-        //if(!responsePostLogin.ok())
-        //throw new Error(`error!! status: ${responsePostLogin.status}`);
+      
         
     const user = await responsePostLogin.json();
     sessionStorage.setItem('currentUser', user.id)
@@ -70,4 +67,25 @@ const put = async () => {
         throw new Error(`error!! status: ${updateUser.status}`);
     else
     alert("updates!")
+}
+const check = async () => {
+ 
+    
+    const checking = await fetch('api/users/check', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application / json'
+        },
+        body: JSON.stringify(document.querySelector(".password").value)
+    });
+    let strength = document.getElementById("file")
+
+    
+    strength.value = await checking.json();
+   
+    if (strength.value < 2) {
+        alert("enter a new stronger password");
+        password.value = "";
+    }
+        
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\דיני רובינשטיין\\Documents\\C#\\myapi\\myapi\\myapi.csproj": {}
+    "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Project\\myapi\\myapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\דיני רובינשטיין\\Documents\\C#\\myapi\\myapi\\myapi.csproj": {
+    "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Project\\myapi\\myapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\דיני רובינשטיין\\Documents\\C#\\myapi\\myapi\\myapi.csproj",
+        "projectUniqueName": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Project\\myapi\\myapi.csproj",
         "projectName": "myapi",
-        "projectPath": "C:\\Users\\דיני רובינשטיין\\Documents\\C#\\myapi\\myapi\\myapi.csproj",
+        "projectPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Project\\myapi\\myapi.csproj",
         "packagesPath": "C:\\Users\\דיני רובינשטיין\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\דיני רובינשטיין\\Documents\\C#\\myapi\\myapi\\obj\\",
+        "outputPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Project\\myapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "zxcvbn-core": {
+              "target": "Package",
+              "version": "[7.0.92, )"
             }
           },
           "imports": [

@@ -100,6 +100,32 @@
   },
   {
     "ContainingType": "APIproj.Controllers.UsersController",
+    "Method": "Check",
+    "RelativePath": "api/Users/check",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIproj.Controllers.UsersController",
     "Method": "PostLogin",
     "RelativePath": "api/Users/login",
     "HttpMethod": "POST",

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
+using Zxcvbn;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -49,6 +50,12 @@ namespace APIproj.Controllers
             }
             return NoContent();
 
+        }
+        [HttpPost("check")]
+        public ActionResult<int> Check([FromBody] string password)
+        {
+            var results = Core.EvaluatePassword(password);
+            return results.Score;
         }
         [HttpGet("{id}")]
         public ActionResult<User> GetById([FromBody] int id)
