@@ -3,12 +3,11 @@ using System.Text.Json;
 
 namespace Repository
 {
-    public class Class1
+    public class UserRepository
     {
         static string filePath = "file.txt";
         public IEnumerable<string> Get()
-        {
-           
+        {           
             return new string[] { "Dini", "Rubinshtein" };
         }
         public User Post( User user)
@@ -28,22 +27,17 @@ namespace Repository
                 string? currentUserInFile;
                 while ((currentUserInFile = reader.ReadLine()) != null)
                 {
-                    var userlogin = JsonSerializer.Deserialize<User>(currentUserInFile);
-
-                    if (userlogin?.userName == login.userName && userlogin.password ==
-                    login.password)
-                        return userlogin;
+                    User user = JsonSerializer.Deserialize<User>(currentUserInFile);
+                    if (user.userName == login.userName && user.password == login.password)
+                        return user;
                 }
             }
-        
+            return null;
+           
 
         }
       
-        public int Check( string password)
-        {
-            var results = Core.EvaluatePassword(password);
-            return results.Score;
-        }  
+        
         public User GetById( int id)
         {
             using (StreamReader reader = System.IO.File.OpenText(filePath))
@@ -57,11 +51,12 @@ namespace Repository
                         return newUser;
                 }
             }
+            return null;
         }
         // PUT api/<UsersController>/5
 
 
-        public void Put( User user)
+        public void Put(User user)
         {
             string textToReplace = string.Empty;
             using (StreamReader reader =

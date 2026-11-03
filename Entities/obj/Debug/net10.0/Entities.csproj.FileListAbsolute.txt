@@ -1,0 +1,12 @@
+M:\New folder\Entities\bin\Debug\net10.0\Entities.deps.json
+M:\New folder\Entities\bin\Debug\net10.0\Entities.dll
+M:\New folder\Entities\bin\Debug\net10.0\Entities.pdb
+M:\New folder\Entities\obj\Debug\net10.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+M:\New folder\Entities\obj\Debug\net10.0\Entities.AssemblyInfoInputs.cache
+M:\New folder\Entities\obj\Debug\net10.0\Entities.AssemblyInfo.cs
+M:\New folder\Entities\obj\Debug\net10.0\Entities.csproj.CoreCompileInputs.cache
+M:\New folder\Entities\obj\Debug\net10.0\Entities.sourcelink.json
+M:\New folder\Entities\obj\Debug\net10.0\Entities.dll
+M:\New folder\Entities\obj\Debug\net10.0\refint\Entities.dll
+M:\New folder\Entities\obj\Debug\net10.0\Entities.pdb
+M:\New folder\Entities\obj\Debug\net10.0\ref\Entities.dll

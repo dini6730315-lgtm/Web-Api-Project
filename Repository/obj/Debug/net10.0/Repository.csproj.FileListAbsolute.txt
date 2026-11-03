@@ -1,0 +1,16 @@
+M:\New folder\Repository\bin\Debug\net10.0\Repository.deps.json
+M:\New folder\Repository\bin\Debug\net10.0\Repository.dll
+M:\New folder\Repository\bin\Debug\net10.0\Repository.pdb
+M:\New folder\Repository\bin\Debug\net10.0\Entities.dll
+M:\New folder\Repository\bin\Debug\net10.0\Entities.pdb
+M:\New folder\Repository\obj\Debug\net10.0\Repository.csproj.AssemblyReference.cache
+M:\New folder\Repository\obj\Debug\net10.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+M:\New folder\Repository\obj\Debug\net10.0\Repository.AssemblyInfoInputs.cache
+M:\New folder\Repository\obj\Debug\net10.0\Repository.AssemblyInfo.cs
+M:\New folder\Repository\obj\Debug\net10.0\Repository.csproj.CoreCompileInputs.cache
+M:\New folder\Repository\obj\Debug\net10.0\Repository.sourcelink.json
+M:\New folder\Repository\obj\Debug\net10.0\Repository.csproj.Up2Date
+M:\New folder\Repository\obj\Debug\net10.0\Repository.dll
+M:\New folder\Repository\obj\Debug\net10.0\refint\Repository.dll
+M:\New folder\Repository\obj\Debug\net10.0\Repository.pdb
+M:\New folder\Repository\obj\Debug\net10.0\ref\Repository.dll
