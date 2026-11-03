@@ -67,7 +67,7 @@ namespace Repository
             using (StreamReader reader =
             System.IO.File.OpenText(filePath))
             {
-                string currentUserInFile;
+                string currentUserInFile; 
                 while ((currentUserInFile = reader.ReadLine()) != null)
                 {
                     User newuser =
