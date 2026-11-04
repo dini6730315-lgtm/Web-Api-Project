@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\New folder\\myapi\\myapi.csproj": {}
+    "M:\\New folder\\New folder (2)\\myapi\\myapi.csproj": {}
   },
   "projects": {
-    "M:\\New folder\\Entities\\Entities.csproj": {
+    "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\New folder\\Entities\\Entities.csproj",
+        "projectUniqueName": "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "M:\\New folder\\Entities\\Entities.csproj",
+        "projectPath": "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\9162\\.nuget\\packages\\",
-        "outputPath": "M:\\New folder\\Entities\\obj\\",
+        "outputPath": "M:\\New folder\\New folder (2)\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -346,14 +346,14 @@
         }
       }
     },
-    "M:\\New folder\\myapi\\myapi.csproj": {
+    "M:\\New folder\\New folder (2)\\myapi\\myapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\New folder\\myapi\\myapi.csproj",
+        "projectUniqueName": "M:\\New folder\\New folder (2)\\myapi\\myapi.csproj",
         "projectName": "myapi",
-        "projectPath": "M:\\New folder\\myapi\\myapi.csproj",
+        "projectPath": "M:\\New folder\\New folder (2)\\myapi\\myapi.csproj",
         "packagesPath": "C:\\Users\\9162\\.nuget\\packages\\",
-        "outputPath": "M:\\New folder\\myapi\\obj\\",
+        "outputPath": "M:\\New folder\\New folder (2)\\myapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -376,11 +376,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "M:\\New folder\\Entities\\Entities.csproj": {
-                "projectPath": "M:\\New folder\\Entities\\Entities.csproj"
+              "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj": {
+                "projectPath": "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj"
               },
-              "M:\\New folder\\Services\\Services.csproj": {
-                "projectPath": "M:\\New folder\\Services\\Services.csproj"
+              "M:\\New folder\\New folder (2)\\Services\\Services.csproj": {
+                "projectPath": "M:\\New folder\\New folder (2)\\Services\\Services.csproj"
               }
             }
           }
@@ -848,14 +848,14 @@
         }
       }
     },
-    "M:\\New folder\\Repository\\Repository.csproj": {
+    "M:\\New folder\\New folder (2)\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\New folder\\Repository\\Repository.csproj",
+        "projectUniqueName": "M:\\New folder\\New folder (2)\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "M:\\New folder\\Repository\\Repository.csproj",
+        "projectPath": "M:\\New folder\\New folder (2)\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\9162\\.nuget\\packages\\",
-        "outputPath": "M:\\New folder\\Repository\\obj\\",
+        "outputPath": "M:\\New folder\\New folder (2)\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -878,8 +878,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "M:\\New folder\\Entities\\Entities.csproj": {
-                "projectPath": "M:\\New folder\\Entities\\Entities.csproj"
+              "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj": {
+                "projectPath": "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj"
               }
             }
           }
@@ -1194,14 +1194,14 @@
         }
       }
     },
-    "M:\\New folder\\Services\\Services.csproj": {
+    "M:\\New folder\\New folder (2)\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\New folder\\Services\\Services.csproj",
+        "projectUniqueName": "M:\\New folder\\New folder (2)\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "M:\\New folder\\Services\\Services.csproj",
+        "projectPath": "M:\\New folder\\New folder (2)\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\9162\\.nuget\\packages\\",
-        "outputPath": "M:\\New folder\\Services\\obj\\",
+        "outputPath": "M:\\New folder\\New folder (2)\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1224,11 +1224,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "M:\\New folder\\Entities\\Entities.csproj": {
-                "projectPath": "M:\\New folder\\Entities\\Entities.csproj"
+              "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj": {
+                "projectPath": "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj"
               },
-              "M:\\New folder\\Repository\\Repository.csproj": {
-                "projectPath": "M:\\New folder\\Repository\\Repository.csproj"
+              "M:\\New folder\\New folder (2)\\Repository\\Repository.csproj": {
+                "projectPath": "M:\\New folder\\New folder (2)\\Repository\\Repository.csproj"
               }
             }
           }

@@ -3,33 +3,38 @@
 using System.Text.Json;
 using Repository;
 namespace Services
-    
 {
-    public class UserServices
+    public class UserService : IUserService
     {
-        UserRepository repository =new UserRepository();
+        IUserRepository repository;
+
+        public UserService(IUserRepository userRepository)
+        {
+            repository = userRepository;
+        }
+
         public IEnumerable<string> Get()
         {
 
-           return repository.Get();
+            return repository.Get();
         }
         public User Post(User user)
         {
-           return repository.Post(user);
-           
+            return repository.Post(user);
+
         }
 
         public User PostLogin(Login login)
         {
-          
-           return repository.PostLogin(login);
+
+            return repository.PostLogin(login);
 
         }
 
 
         public User GetById(int id)
         {
-          return repository.GetById(id);
+            return repository.GetById(id);
         }
         // PUT api/<UsersController>/5
 
@@ -40,7 +45,7 @@ namespace Services
         //}
         public void Put(User user)
         {
-           repository.Put(user);
+            repository.Put(user);
         }
     }
 }

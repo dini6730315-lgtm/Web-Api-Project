@@ -14,8 +14,11 @@ namespace APIproj.Controllers
     public class UsersController : ControllerBase
     {
 
-      UserServices userService=new UserServices();
-            
+        IUserService userService;
+        public UsersController(IUserService _userServices)
+        {
+            userService = _userServices;
+        }
         // GET: api/<UsersController>
         [HttpGet]
         public IEnumerable<string> Get()

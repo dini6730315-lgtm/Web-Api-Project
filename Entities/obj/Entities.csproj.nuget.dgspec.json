@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\New folder\\Entities\\Entities.csproj": {}
+    "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "M:\\New folder\\Entities\\Entities.csproj": {
+    "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\New folder\\Entities\\Entities.csproj",
+        "projectUniqueName": "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "M:\\New folder\\Entities\\Entities.csproj",
+        "projectPath": "M:\\New folder\\New folder (2)\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\9162\\.nuget\\packages\\",
-        "outputPath": "M:\\New folder\\Entities\\obj\\",
+        "outputPath": "M:\\New folder\\New folder (2)\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

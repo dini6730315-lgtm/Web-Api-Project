@@ -3,14 +3,14 @@ using System.Text.Json;
 
 namespace Repository
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         static string filePath = "file.txt";
         public IEnumerable<string> Get()
-        {           
+        {
             return new string[] { "Dini", "Rubinshtein" };
         }
-        public User Post( User user)
+        public User Post(User user)
         {
             int numberOfUsers = System.IO.File.ReadLines(filePath).Count();
             user.id = numberOfUsers + 1;
@@ -19,8 +19,8 @@ namespace Repository
             Environment.NewLine);
             return user;
         }
-       
-        public User PostLogin( Login login)
+
+        public User PostLogin(Login login)
         {
             using (StreamReader reader = System.IO.File.OpenText(filePath))
             {
@@ -33,12 +33,12 @@ namespace Repository
                 }
             }
             return null;
-           
+
 
         }
-      
-        
-        public User GetById( int id)
+
+
+        public User GetById(int id)
         {
             using (StreamReader reader = System.IO.File.OpenText(filePath))
             {
@@ -62,7 +62,7 @@ namespace Repository
             using (StreamReader reader =
             System.IO.File.OpenText(filePath))
             {
-                string currentUserInFile; 
+                string currentUserInFile;
                 while ((currentUserInFile = reader.ReadLine()) != null)
                 {
                     User newuser =
