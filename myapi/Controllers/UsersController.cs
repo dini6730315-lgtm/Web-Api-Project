@@ -47,6 +47,7 @@ namespace APIproj.Controllers
         //   //return userService.Check(password);
         //}
         [HttpGet("{id}")]
+        //The id is in the URL, not in a body: is [FromBody] right for a GET? What should the id come from?
         public ActionResult<User> GetById([FromBody] int id)
         {
            return userService.GetById(id);
@@ -54,6 +55,7 @@ namespace APIproj.Controllers
         // PUT api/<UsersController>/5
 
         [HttpPut]
+            //The assignment asks PUT to return Ok(): change void to IActionResult and return Ok() at the end
             public void Put([FromBody] User user)
             {
              userService.Put(user);    

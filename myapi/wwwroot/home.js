@@ -85,6 +85,7 @@ const check = async () => {
    
     if (strength.value < 2) {
         alert("enter a new stronger password");
+        //Where does password come from? It is not defined in this function: which element should it be?
         password.value = "";
     }
         
