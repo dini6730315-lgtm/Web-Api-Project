@@ -20,6 +20,7 @@ namespace Repository
             return user;
         }
 
+        //Why does login return 500? Line 1 of myapi/file.txt holds two users on one line: does each user need its own line?
         public User PostLogin(Login login)
         {
             using (StreamReader reader = System.IO.File.OpenText(filePath))

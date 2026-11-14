@@ -2,6 +2,7 @@
 
 namespace Services
 {
+    //The file name should match the type: IUserServices.cs should be named IUserService.cs
     public interface IUserService
     {
         IEnumerable<string> Get();
