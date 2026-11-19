@@ -1,13 +1,14 @@
 ﻿using Entities;
+using Repository.Models;
 
 namespace Repository
 {
     public interface IUserRepository
     {
         IEnumerable<string> Get();
-        User GetById(int id);
-        User Post(User user);
-        User PostLogin(Login login);
-        void Put(User user);
+        Task<User> GetById(int id);
+        Task<User> Post(User user);
+        Task<User> PostLogin(Login login);
+        Task<User> Put(User user);
     }
 }
