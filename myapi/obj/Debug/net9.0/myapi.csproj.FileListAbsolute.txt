@@ -1,0 +1,8 @@
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.csproj.AssemblyReference.cache
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.AssemblyInfoInputs.cache
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.AssemblyInfo.cs
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.csproj.CoreCompileInputs.cache
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.sourcelink.json

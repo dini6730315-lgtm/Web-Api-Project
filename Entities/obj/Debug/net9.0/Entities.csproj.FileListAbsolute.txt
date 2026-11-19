@@ -1,0 +1,5 @@
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.AssemblyInfoInputs.cache
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.AssemblyInfo.cs
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.sourcelink.json
