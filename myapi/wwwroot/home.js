@@ -85,6 +85,7 @@ const check = async () => {
    
     if (strength.value < 2) {
         alert("enter a new stronger password");
+        //password is not defined in this file: which input holds it? The password input has the class password
         password.value = "";
     }
         

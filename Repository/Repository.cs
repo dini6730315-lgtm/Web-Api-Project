@@ -32,6 +32,7 @@ namespace Repository
         {
             var user = await db.Users.FirstOrDefaultAsync(x=>x.Password==login.password && x.Password == login.password);
             //var userName = await db.Users.FindAsync(login.userName);
+            //What happens when no user has this password? user is null here, so user.Password throws
             if (user.Password == login.password && login.userName == user.Email)
             {
                 return user;
