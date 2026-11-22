@@ -2,6 +2,7 @@
 //using Syncfusion.XForms.Android.Core;
 using System.Text.Json;
 using Repository;
+using Repository.Models;
 namespace Services
 {
     public class UserService : IUserService
@@ -18,23 +19,23 @@ namespace Services
 
             return repository.Get();
         }
-        public User Post(User user)
+        public  User Post(User user)
         {
-            return repository.Post(user);
+            return repository.Post(user).Result;
 
         }
 
         public User PostLogin(Login login)
         {
 
-            return repository.PostLogin(login);
+            return repository.PostLogin(login).Result;
 
         }
 
 
         public User GetById(int id)
         {
-            return repository.GetById(id);
+            return repository.GetById(id).Result;
         }
         // PUT api/<UsersController>/5
 

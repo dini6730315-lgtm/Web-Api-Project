@@ -3,3 +3,10 @@ C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\
 C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.AssemblyInfo.cs
 C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.sourcelink.json
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\bin\Debug\net9.0\Entities.deps.json
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\bin\Debug\net9.0\Entities.dll
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\bin\Debug\net9.0\Entities.pdb
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.dll
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\refint\Entities.dll
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\Entities.pdb
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\Entities\obj\Debug\net9.0\ref\Entities.dll

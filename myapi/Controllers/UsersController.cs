@@ -3,6 +3,7 @@ using Entities;
 using System.Text.Json;
 using Zxcvbn;
 using Services;
+using Repository.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -33,7 +34,7 @@ namespace APIproj.Controllers
         public ActionResult<User> Post([FromBody] User user)
         {
             user = userService.Post(user);
-            return CreatedAtAction(nameof(Get), new { id = user.id }, user);
+            return CreatedAtAction(nameof(Get), new { id = user.Id}, user);
         }
         [HttpPost("login")]
         public ActionResult<User> PostLogin([FromBody] Login login)

@@ -1,0 +1,6 @@
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\wwwroot\Home.html
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\wwwroot\home.js
+C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\wwwroot\update.html
+wwwroot\Home.html
+wwwroot\home.js
+wwwroot\update.html

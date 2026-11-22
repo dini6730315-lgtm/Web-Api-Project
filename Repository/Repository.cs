@@ -20,14 +20,11 @@ namespace Repository
             return new string[] { "Dini", "Rubinshtein" };
         }
         public async Task<User> Post(User user)
-        {
-            
-            
+        {           
             await db.Users.AddAsync(user);
             await db.SaveChangesAsync();
             return user;
         }
-
         public async Task<User> PostLogin(Login login)
         {
             var user = await db.Users.FirstOrDefaultAsync(x=>x.Password==login.password && x.Password == login.password);
@@ -42,8 +39,7 @@ namespace Repository
 
         public async Task<User> GetById(int id)
         {
-            var user = await db.Users.FindAsync(id);
-            
+            var user = await db.Users.FindAsync(id);            
             return user;
         }
         // PUT api/<UsersController>/5
@@ -57,8 +53,7 @@ namespace Repository
                 await db.SaveChangesAsync();
                 return user;
             }
-            return null;
-               
+            return null;               
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Repository.Models;
 
 namespace Services
 {

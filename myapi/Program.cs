@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Repository;
 using Repository.Models;
 using Services;
@@ -11,10 +12,11 @@ builder.Services.AddControllers();
 //builder.Services.AddOpenApi();
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+//builder.Services.AddDbContext<MyDataBaseContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString())
 builder.Services.AddDbContext<MyDataBaseContext>(options =>
-options.OnModelCreating(builder.Configuration.GetConnectionString
+options.UseSqlServer(builder.Configuration.GetConnectionString
 ("Data Source=srv2\\pupils;Initial Catalog=MyDataBase;Integrated Security=True;" +
-"Trust Server Certificate=True")),ServiceLifeTime.Transient);
+"Trust Server Certificate=True")), ServiceLifetime.Transient);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
