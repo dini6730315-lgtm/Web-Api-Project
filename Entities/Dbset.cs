@@ -6,6 +6,7 @@ namespace Entities
 {
     public class Dbset<T>
     {
+        //Categories isn't a class in Entities, so this line doesn't compile
         public virtual Dbset<Categories> Categories { get; set; }
         public virtual Dbset<OrderItem> OrderItem { get; set; }
         public virtual Dbset<Orders> Orders { get; set; }

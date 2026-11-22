@@ -1,9 +1,11 @@
 ﻿using Entities;
 //using Syncfusion.XForms.Android.Core;
+//This using isn't used in this file: you can remove it
 using System.Text.Json;
 using Repository;
 namespace Services
 {
+    //File names should match the type: rename UserServices.cs to UserService.cs (and IUserServices.cs to IUserService.cs)
     public class UserService : IUserService
     {
         IUserRepository repository;
