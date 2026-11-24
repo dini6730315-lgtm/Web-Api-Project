@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Services\\Services.csproj": {}
+    "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Entities\\Entities.csproj": {
+    "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\דיני רובינשטיין\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\9162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\דיני רובינשטיין\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\9162\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,10 +26,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -44,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "imports": [
             "net461",
@@ -60,29 +63,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.319/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Repository\\Repository.csproj": {
+    "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\דיני רובינשטיין\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\9162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\דיני רובינשטיין\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\9162\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,14 +108,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Entities\\Entities.csproj"
+              "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Entities\\Entities.csproj"
               }
             }
           }
@@ -113,15 +132,24 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.34, )"
+            },
+            "SwashBuckle.AspNetCore.MicrosoftExtensions": {
+              "target": "Package",
+              "version": "[0.5.0, )"
             }
           },
           "imports": [
@@ -135,29 +163,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.319/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Services\\Services.csproj": {
+    "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\דיני רובינשטיין\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Services\\obj\\",
+        "projectPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\9162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\דיני רובינשטיין\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\9162\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -166,17 +208,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Entities\\Entities.csproj"
+              "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\דיני רובינשטיין\\source\\repos\\Web-Api-Projec\\Repository\\Repository.csproj"
+              "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\9162\\source\\repos\\Web-Api-Project\\Repository\\Repository.csproj"
               }
             }
           }
@@ -191,10 +235,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Syncfusion.Xamarin.Core": {
@@ -213,12 +258,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.17, 9.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.319/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

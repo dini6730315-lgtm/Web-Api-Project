@@ -19,12 +19,25 @@ options.UseSqlServer(builder.Configuration.GetConnectionString
 "Trust Server Certificate=True")), ServiceLifetime.Transient);
 var app = builder.Build();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 // Configure the HTTP request pipeline.
+ //builder.Services.AddOpenApi();
 //if (app.Environment.IsDevelopment())
 //{
 //    app.MapOpenApi();
-//}
+//    app.UseSwaggerUI(options =>
+//    {
+//        options.SwaggerEndpoint("/openapi/v1.json", "v1");
+//    });
 
+//}
+if(app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+
+}
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();

@@ -89,3 +89,15 @@ C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Deb
 C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.pdb
 C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\myapi.genruntimeconfig.cache
 C:\Users\דיני רובינשטיין\source\repos\Web-Api-Projec\myapi\obj\Debug\net9.0\ref\myapi.dll
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.csproj.AssemblyReference.cache
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.AssemblyInfoInputs.cache
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.AssemblyInfo.cs
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.csproj.CoreCompileInputs.cache
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.sourcelink.json
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.dll
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\refint\myapi.dll
+C:\Users\9162\source\repos\Web-Api-Project\myapi\obj\Debug\net9.0\myapi.pdb

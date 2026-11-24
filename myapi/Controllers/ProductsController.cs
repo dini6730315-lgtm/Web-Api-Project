@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Repository.Models;
+using Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,6 +10,15 @@ namespace myapi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        IProductService productService;
+        public ProductsController(IProductService _productServices)
+        {
+            productService = _productServices;
+        }
+        public async Task<List<Product>> GetProduct()
+        {
+            return await productService.GetProduct();
+        }
         // GET: api/<ProductsController>
         [HttpGet]
         public IEnumerable<string> Get()

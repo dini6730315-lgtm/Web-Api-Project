@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 namespace Repository
 {
     public class UserRepository : IUserRepository
-    {        
+    {         private readonly int numberOfUsers=0;
         MyDataBaseContext db;
-        private readonly int numberOfUsers=0;
+       
 
         public UserRepository(MyDataBaseContext db)
         {
